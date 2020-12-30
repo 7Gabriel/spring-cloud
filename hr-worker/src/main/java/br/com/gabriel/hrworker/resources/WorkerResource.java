@@ -2,6 +2,7 @@ package br.com.gabriel.hrworker.resources;
 
 import br.com.gabriel.hrworker.entities.Worker;
 import br.com.gabriel.hrworker.repositories.WorkerRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.hibernate.jdbc.Work;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+@Slf4j
 @RestController
 @RequestMapping(value = "/workers")
 public class WorkerResource {
