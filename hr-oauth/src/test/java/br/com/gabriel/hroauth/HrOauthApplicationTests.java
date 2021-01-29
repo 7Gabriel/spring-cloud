@@ -1,10 +1,10 @@
-package br.com.gabriel.hruser.hruser;
+package br.com.gabriel.hroauth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HrUserApplicationTests {
+class HrOauthApplicationTests {
 
 	@Test
 	void contextLoads() {
